@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Gumela;
+    src: url(Gumela\ Regular.otf);
+}
+
+body{
+    margin: 0;
+    background-color: #333;
+    color: whitesmoke;
+
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: "Gumela";
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+
+.main-subtitle{
+    font-family: 'Calibri';
+    font-size: 2rem;
+    margin-top: -2%;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin: 50px 0;
+}
+
+
+.hero-img{
+    width: 450px;
+    height: 450px;
+    border-radius: 265px;
+}
+
+#img-caption{
+    font-family: 'Calibri';
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 0 30px;
+}
+
+.tribute-info{
+    margin-top: 90px;
+}
+
+.more-info{
+    font-family: 'Calibri';
+    font-size: 2rem;
+    text-align: center;
+}
+
+.info{
+    font-family: 'Calibri';
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 0 50px;
+}
+
+.summ{
+    margin: 0 30px;
+    font-family: 'Calibri';
+    font-size: 1.2rem;
+}
+
+.summary-head{
+    font-size: 2rem;
+    margin-bottom: -10px;
+}
+
+.summary-para{
+    text-align: justify;
+}
+
+.summary-quote{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gumela';
+}
+
+.author{
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Calibri';
+}
+
+.footer{
+    font-family: 'Calibri';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.tribute-link{
+    color: #fa0ae6;
+    text-decoration: none;
+}
+
+.row-division{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
